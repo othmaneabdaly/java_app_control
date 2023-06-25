@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.manager_project.HelloController">
+
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="283.0">
+         <children>
+            <Text fill="#d90000" layoutX="81.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager App" AnchorPane.bottomAnchor="335.98046875" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="81.287109375" AnchorPane.topAnchor="37.41796875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager App gere les manager" textAlignment="CENTER" AnchorPane.bottomAnchor="213.81575520833331" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="199.8837890625" AnchorPane.topAnchor="169.576171875">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font></Text>
+            <Text fill="#745555" layoutX="105.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" textAlignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="290.0" prefHeight="400.0" prefWidth="310.0">
+         <children>
+            <Text layoutX="64.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username :" AnchorPane.bottomAnchor="274.4114586512248" AnchorPane.leftAnchor="64.0" AnchorPane.rightAnchor="189.01432037353516" AnchorPane.topAnchor="110.63020896911621" />
+            <Text layoutX="64.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password : " AnchorPane.bottomAnchor="198.4114586512248" AnchorPane.leftAnchor="64.0" AnchorPane.rightAnchor="187.10025787353516" AnchorPane.topAnchor="186.6302089691162" />
+            <TextField fx:id="userField" layoutX="62.0" layoutY="143.0" AnchorPane.bottomAnchor="232.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="99.0" AnchorPane.topAnchor="143.0" />
+            <PasswordField fx:id="passwordField" layoutX="62.0" layoutY="226.0" AnchorPane.bottomAnchor="149.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="99.0" AnchorPane.topAnchor="226.0" />
+            <Button layoutX="167.0" layoutY="279.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="32.0" prefWidth="98.0" text="Login" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="167.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="279.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
